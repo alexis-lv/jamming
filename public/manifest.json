@@ -3,7 +3,7 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://content.codecademy.com/programs/react/jammming/favicon.ico?_gl=1*zrc8wv*_ga*MTU3NjAwMjkxNy4xNjUyNjM4MjMy*_ga_3LRZM6TM9L*MTY2ODE5NjE0My40NTAuMS4xNjY4MjAwMTg5LjYwLjAuMA..",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
