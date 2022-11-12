@@ -9,12 +9,10 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      searchResults: [
-        {name: 'Honda Civic', artist: 'Tory Lanez', album: 'Memories Dont Die', id: 1 },
+      searchResults: [{name: 'Honda Civic', artist: 'Tory Lanez', album: 'Memories Dont Die', id: 1 },
         {name: 'Under The Influence', artist: 'Chris Brown', ablum: 'Indigo', id: 2},
         {name: 'Dark Paradise', artist: 'Lana Del Ray', album: 'Dark Paradise', id: 3},
-        {name: "After Hours", artist: 'The Weeknd', album: "After Hours", id: 4}
-      ]
+        {name: "After Hours", artist: 'The Weeknd', album: "After Hours", id: 4}]
     }
   }
 
@@ -28,7 +26,7 @@ class App extends React.Component {
         <div className="App">
           <SearchBar />        
           <div className="App-playlist">
-             <SearchResults />    
+             <SearchResults searchResults={this.state.searchResults} />    
                 <Playlist />     
           </div>
         </div>
