@@ -9,11 +9,22 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      searchResults: [{name: 'Honda Civic', artist: 'Tory Lanez', album: 'Memories Dont Die', id: 1 },
-        {name: 'Under The Influence', artist: 'Chris Brown', ablum: 'Indigo', id: 2},
-        {name: 'Dark Paradise', artist: 'Lana Del Ray', album: 'Dark Paradise', id: 3},
-        {name: "After Hours", artist: 'The Weeknd', album: "After Hours", id: 4}]
+      searchResults: [
+          {name: 'Honda Civic', artist: 'Tory Lanez', album: 'Memories Dont Die', id: 1 },
+          {name: 'Under The Influence', artist: 'Chris Brown', album: 'Indigo', id: 2},
+          {name: 'Dark Paradise', artist: 'Lana Del Ray', album: 'Dark Paradise', id: 3},
+          {name: "After Hours", artist: 'The Weeknd', album: "After Hours", id: 4}
+        ],
+      playlistName: 'Gym',
+      playlistTracks: [
+          {name: 'Frustrated', artist: 'Chris Brown', album: 'Indigo', id: 1},
+          {name: 'Story To Tell', artist: 'Fredo Bang', album: '', id: 2},
+          {name: 'Cleveland is The Reason', artist: 'Kid Cudi', album: 'High', id: 3},
+          {name: 'Eventuall', artist: 'Tame Impala', album: 'Memories', id: 4}
+        ]
+    
     }
+
   }
 
 
