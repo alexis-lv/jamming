@@ -17,10 +17,10 @@ class App extends React.Component {
         ],
       playlistName: 'Gym',
       playlistTracks: [
-          {name: 'Frustrated', artist: 'Chris Brown', album: 'Indigo', id: 1},
-          {name: 'Story To Tell', artist: 'Fredo Bang', album: '', id: 2},
-          {name: 'Cleveland is The Reason', artist: 'Kid Cudi', album: 'High', id: 3},
-          {name: 'Eventuall', artist: 'Tame Impala', album: 'Memories', id: 4}
+          {name: 'Frustrated', artist: 'Chris Brown', album: 'Indigo', id: 5},
+          {name: 'Story To Tell', artist: 'Fredo Bang', album: '', id: 6},
+          {name: 'Cleveland is The Reason', artist: 'Kid Cudi', album: 'High', id: 7},
+          {name: 'Eventuall', artist: 'Tame Impala', album: 'Memories', id: 8}
         ]
     
     };
