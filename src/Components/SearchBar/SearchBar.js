@@ -2,7 +2,7 @@ import React from 'react';
 import './Searchbar.css';
 
 class SearchBar extends React.Component {
-    constructor(prop) {
+    constructor(props) {  
         super(props);
         this.search = this.search.bind(this);
         this.handleTermChange = this.handleTermChange;
