@@ -32,8 +32,8 @@ class App extends React.Component {
 
   }
 
-  search(searchTerm) {
-    console.log(searchTerm);
+  search(term) {
+    console.log(term);
   }
 
 
