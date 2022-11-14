@@ -23,7 +23,8 @@ class App extends React.Component {
           {name: 'Eventuall', artist: 'Tame Impala', album: 'Memories', id: 4}
         ]
     
-    }
+    };
+    this.addTrack = this.addTrack.bind(this);
 
   }
 
