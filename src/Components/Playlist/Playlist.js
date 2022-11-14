@@ -4,6 +4,14 @@ import TrackList from '../TrackList/TrackList';
 
 
 class Playlist extends React.Component {
+
+
+    handleNameChange(e) {
+        const name = e.target.value;
+        this.props.onNameChange(name);
+    }
+
+
     render() {
         return (
             <div className="Playlist">
