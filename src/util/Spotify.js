@@ -31,7 +31,23 @@ const Spotify = {
             headers: {
                 Authorization: `Bearer ${accessToken}`
             }
-        });
+        }).then(response => {
+            return response.json();
+        }).then(jsonResponse => {
+            if (!jsonResponse.tracks) {
+                return [];
+            } 
+
+                const searchTracks = jsonResponse.tracks.items.map(track => ({
+                    id: track.id,
+                    name: track.name,
+                    artist: track.artist,
+                    album: track.album,
+                    uri: track.uri
+                }));
+                return searchTracks;
+            }
+        );
     }
 
 }
