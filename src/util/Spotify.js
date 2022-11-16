@@ -1,5 +1,5 @@
 let accessToken;
-const clientId = feab93f9ddf54ee3858c185825b5c865;
+const clientId = 'feab93f9ddf54ee3858c185825b5c865';
 const redirectUri = "http://localhost:3000/";
 
 const Spotify = {
@@ -38,16 +38,14 @@ const Spotify = {
                 return [];
             } 
 
-                const searchTracks = jsonResponse.tracks.items.map(track => ({
+                return jsonResponse.tracks.items.map(track => ({
                     id: track.id,
                     name: track.name,
                     artist: track.artists[0].name,
                     album: track.album.name,
                     uri: track.uri
                 }));
-                return searchTracks;
-            }
-        );
+            });
     }
 
 }
